@@ -27,14 +27,23 @@ music:
       url: ''
 
 # Comment
-# Params: disable/twikoo
+# Params: disable/twikoo/gitalk
 comment:
   use: disable
+  showOnAbout: true   
 
-# twikoo settings
-# https://github.com/imaegoo/twikoo
-twikoo:
-  env: # Your Environment Url is there
+  # twikoo settings
+  # https://github.com/imaegoo/twikoo
+  twikoo:
+    env: # Your Environment Url is there
+  
+  # https://github.com/gitalk/gitalk
+  gitalk:
+    cid:    # ClientID
+    csecret:   #Client Secret
+    repo:
+    own:
+    admin:
   
 math:
   enable: true

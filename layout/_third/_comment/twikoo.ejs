@@ -1,0 +1,15 @@
+<div class="comment-warp">
+   <span class="comment-title">评论</span>
+   <div id="comment">
+       
+   </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/twikoo@1.7.7/dist/twikoo.min.js"></script>
+  <script>
+    twikoo.init({
+     envId: '<%= theme.comment.twikoo.env %>',
+     el: '#comment',
+     // path: location.pathname, 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+})
+</script>
