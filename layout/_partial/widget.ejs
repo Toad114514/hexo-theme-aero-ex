@@ -23,7 +23,7 @@
     </div>
 </div>
 
-
+<% if (theme.music.enable) { %>
 <div class="widget music-widget">
     <div class="player-content">
         <div class="song-info">
@@ -52,6 +52,7 @@
 
     <audio id="audioPlayer"></audio>
 </div>
+<% } %>
 
 <script>
     var musicConfig = {
