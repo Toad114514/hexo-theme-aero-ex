@@ -83,6 +83,7 @@ npm uninstall hexo-renderer-marked
 npm install hexo-renderer-markdown-it --save
 ```
 
-## 其他
+## 使用的开源项目
 
-部分样式设计参考https://github.com/khang-nd/7.css
+Hexo Aero Theme: https://github.com/5h1nnN/hexo-theme-aero
+样式设计参考: https://github.com/khang-nd/7.css
