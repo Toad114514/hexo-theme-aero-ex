@@ -15,14 +15,27 @@ profile:
     - name: Bilibili
       link: '' # https://space.bilibili.com/youruid
       icon: /image/icon/bilibili.png
+
+# 音乐栏，目前为本地，可添加多首
 music:
-  enable: true
+  enable: false
   autoplay: false
   songs:
     - title: ''
       artist: ''
       cover: ''
       url: ''
+
+# Comment
+# Params: disable/twikoo
+comment:
+  use: disable
+
+# twikoo settings
+# https://github.com/imaegoo/twikoo
+twikoo:
+  env: # Your Environment Url is there
+  
 math:
   enable: true
   engine: mathjax
