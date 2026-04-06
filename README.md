@@ -4,11 +4,12 @@
 
 ## 简介
 
-一个Frutiger Aero风格的Hexo博客主题，灵感来自Windows Vista、Windows 7等的设计风格
+一个Frutiger Aero风格的Hexo博客主题，灵感来自Windows Vista、Windows 7等的设计风格  
+基于 [5h1nnN/hexo-theme-aero](https://github.com/5h1nnN/hexo-theme-aero) 的分支，在此基础上添加了一些新特性，目前处在早期开发阶段
 
-演示网站：[ShinN's Blog](https://sh1nn.top)
-
-![Demo](https://assets.sh1nn.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-01-27%20163408.png)
+<!-- 演示网站：[ShinN's Blog](https://sh1nn.top) -->
+<!--  -->
+<!-- ![Demo](https://assets.sh1nn.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-01-27%20163408.png) -->
 
 ## 特性
 
@@ -44,7 +45,7 @@
 在博客根目录下运行：
 
 ```bash
-git clone https://github.com/5h1nnN/hexo-theme-aero.git themes/aero
+git clone https://github.com/Toad114514/hexo-theme-aero-ex.git themes/aero
 ```
 
 在博客根目录的`_config.yml`中进行主题配置
@@ -54,7 +55,7 @@ git clone https://github.com/5h1nnN/hexo-theme-aero.git themes/aero
 theme: aero
 
 # 页面标题
-title: ShinN's Blog
+title: xxxx's Blog
 
 # 博客标题
 subtitle: live happily.
