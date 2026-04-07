@@ -1,8 +1,12 @@
+# Aero-Plus!! configuration example files
+
 menu:
   about: /about
+
 favicon:
   enable: true
   icon: /image/icon/vista_messenger.jpg
+
 profile:
   enable: true
   author: ''
@@ -44,7 +48,12 @@ comment:
     repo:
     own:
     admin:
-  
+
+# Tags Plugin Settings
+# Note
+note:
+  style: win7  # Win7 Style or none
+
 math:
   enable: true
   engine: mathjax
