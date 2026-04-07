@@ -7,9 +7,19 @@
 
 <script src="https://cdn.jsdelivr.net/npm/twikoo@1.7.7/dist/twikoo.min.js"></script>
   <script>
+    function initTwikoo() {
+    // clean
+    const c = document.querySelector('#comment');
+    if (c) c.innerHTML ='';
+    // Init
     twikoo.init({
      envId: '<%= theme.comment.twikoo.env %>',
      el: '#comment',
-     // path: location.pathname, 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
-})
+    })}
+    
+    initTwikoo();
+    // Pjax reload
+    document.addEventListener('pjax:complete', function() {
+      initTwikoo();
+    });
 </script>

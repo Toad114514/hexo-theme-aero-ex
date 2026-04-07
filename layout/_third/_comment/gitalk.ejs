@@ -1,17 +1,25 @@
 <div class="comment-warp">
-      <div id="commentd">
-      </div>
-    </div>
+      <div id="commentd"></div>
+</div>
 
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script>
-const gitalk = new Gitalk({
-  clientID: '<%- theme.comment.gitalk.cid %>',
-  clientSecret: '<%- theme.comment.gitalk.csecret %>',
-  repo: '<%- theme.comment.gitalk.repo %>',
-  owner: '<%- theme.comment.gitalk.own %>'
-})
-
-gitalk.render('commentd')
+  function initGitalk() {
+    const c = document.getElementById("commentd");
+    if (c) c.innerHTML='';
+    
+    const gitalk = new Gitalk({
+        clientID: '<%- theme.comment.gitalk.cid %>',
+        clientSecret: '<%- theme.comment.gitalk.csecret %>',
+        repo: '<%- theme.comment.gitalk.repo %>',
+        owner: '<%- theme.comment.gitalk.own %>'
+    });
+    gitalk.render('commentd')
+  }
+  
+  // Pjax Support
+  document.addEventListener('pjax:complete', function() {
+    initGitalk();
+  });
 </script>
