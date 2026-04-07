@@ -50,7 +50,7 @@ comment:
     admin:
 
 # Tags Plugin Settings
-# Note
+# Note global settings
 note:
   style: win7  # Win7 Style or none
 
