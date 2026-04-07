@@ -1,4 +1,4 @@
-# hexo-theme-aero
+# hexo-theme-aero-plus
 
 [[English](README_en.md)|中文]
 
@@ -85,5 +85,5 @@ npm install hexo-renderer-markdown-it --save
 
 ## 使用的开源项目
 
-Hexo Aero Theme: https://github.com/5h1nnN/hexo-theme-aero
+Hexo Aero Theme: https://github.com/5h1nnN/hexo-theme-aero  
 样式设计参考: https://github.com/khang-nd/7.css
