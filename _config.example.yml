@@ -20,6 +20,17 @@ profile:
       link: '' # https://space.bilibili.com/youruid
       icon: /image/icon/bilibili.png
 
+# Global web setting
+web:
+  bg: /image/bg.jpg # Only picture url
+
+# Color palette settings
+color:
+  # Only 16hex color support
+  primary: 3c7fb1 # Main color
+  second: d8e2e7 # Second
+  highlight: aaddfa # Highlight something
+
 # 音乐栏，目前为本地，可添加多首
 music:
   enable: false
