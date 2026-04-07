@@ -1,0 +1,23 @@
+.note {
+  box-shadow: 0 0 0 0.5px var(--black-main),
+        0 0 0 1.5px var(--white-main);
+}
+
+.note.info { --note-color: #2196f3 };
+.note.success { --note-color: #4caf50 };
+.note.warning { --note-color: #ff9800 };
+.note.danger { --note-color: #f44336 };
+
+.note.win7 {
+    background: rgba(from var(--note-color) r g b / 0.3);
+    box-sizing: border-box;
+    box-shadow:
+        inset 0 0 20px rgba(from var(--note-color) r g b / 0.8),
+        0 0 0 1px var(--white-main),
+        0 0 0 1.5px var(--black-main),
+        3px 3px 10px rgba(from var(--black-main) r g b / 0.6);
+}
+.note p:last-child { margin-bottom: 0; }
+.note p { padding: 5px; }
+
+.note { margin-bottom: 3px; }
